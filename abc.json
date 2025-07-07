@@ -1,0 +1,164 @@
+{
+  "_id": "ObjectId",
+  "projectId": "PRJ-0001",
+  "name": "Silver Oak Residency",
+  "slug": "silver-oak-residency",
+  "developer": {
+    "developerId": "DEV-1234",
+    "name": "Oak Builders Pvt Ltd"
+  },
+  "status": "ongoing",
+  "type": "residential",
+  "phase": "Phase II",
+  "category": "premium",
+  "dates": {
+    "launch": "2024-06-01T00:00:00Z",
+    "possession": "2026-12-15T00:00:00Z",
+    "lastUpdated": "2025-07-07T00:00:00Z"
+  },
+  "location": {
+    "address": {
+      "line1": "123 Green Park",
+      "line2": "Sector 45",
+      "locality": "Greenwood",
+      "subLocality": "Block B",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "pinCode": "411014"
+    },
+    "geo": {
+      "type": "Point",
+      "coordinates": [73.8567, 18.5204]
+    },
+    "nearby": {
+      "metroStations": [
+        { "name": "Vanaz", "distanceKm": 4.2 },
+        { "name": "Dapodi", "distanceKm": 5.8 }
+      ],
+      "railwayStations": [
+        { "name": "Pune Junction", "distanceKm": 7.5 }
+      ],
+      "airport": { "name": "Lohegaon Airport", "distanceKm": 6.3 },
+      "busStands": [
+        { "name": "Shivajinagar Bus Stand", "distanceKm": 8.1 }
+      ]
+    }
+  },
+  "approvals": {
+    "landArea": { "value": 2.5, "unit": "acres" },
+    "builtUpArea": { "value": 350000, "unit": "sqft" },
+    "ownershipType": "freehold",
+    "titleStatus": "clear",
+    "environmental": true,
+    "fire": true,
+    "height": true,
+    "water": true,
+    "other": "NOC from local panchayat obtained"
+  },
+  "unitVariants": [
+    {
+      "variantId": "1BHK-01",
+      "unitType": "1BHK",
+      "sizes": [
+        { "carpetArea": 650, "unit": "sqft", "price": 4200000 },
+        { "carpetArea": 700, "unit": "sqft", "price": 4550000 }
+      ],
+      "parking": { "included": true, "slots": 1 },
+      "availability": { "total": 20, "booked": 5 }
+    },
+    {
+      "variantId": "2BHK-02",
+      "unitType": "2BHK",
+      "sizes": [
+        { "carpetArea": 900, "unit": "sqft", "price": 6300000 },
+        { "carpetArea": 950, "unit": "sqft", "price": 6650000 }
+      ],
+      "parking": { "included": true, "slots": 2 },
+      "availability": { "total": 30, "booked": 12 }
+    },
+    {
+      "variantId": "2.5BHK-03",
+      "unitType": "2.5BHK",
+      "sizes": [
+        { "carpetArea": 1100, "unit": "sqft", "price": 7800000 }
+      ],
+      "parking": { "included": true, "slots": 2 },
+      "availability": { "total": 15, "booked": 3 }
+    }
+  ],
+  "financial": {
+    "pricePerSqft": 7000,
+    "totalCost": 150000000,
+    "maintenancePerSqft": 2.5,
+    "corpusFund": 5000000,
+    "bookingAmount": 200000,
+    "emiAvailable": true,
+    "banks": ["HDFC", "ICICI", "SBI"],
+    "loanStatus": "pre-approved",
+    "escalationClause": true
+  },
+  "amenities": {
+    "swimmingPool": true,
+    "gym": true,
+    "clubhouse": true,
+    "playArea": true,
+    "joggingTrack": true,
+    "powerBackup": true,
+    "rainwaterHarvesting": true,
+    "sewageTreatment": true,
+    "security": { "cctv": true, "guards": true },
+    "elevators": 4,
+    "greenAreaPct": 30,
+    "amphitheater": false,
+    "communityHall": true,
+    "visitorParking": true
+  },
+  "legal": {
+    "titleDeed": "registered",
+    "encumbranceCertificate": true,
+    "occupancyCertificate": false,
+    "completionCertificate": false,
+    "saleAgreement": true
+  },
+  "media": {
+    "brochureUrl": "https://…/silver-oak-brochure.pdf",
+    "videoTourUrl": "https://youtu.be/xyz",
+    "images": [
+      "https://…/img1.jpg",
+      "https://…/img2.jpg"
+    ],
+    "walkThrough3d": "https://…/3d-tour",
+    "virtualTour": "https://…/virtual"
+  },
+  "contacts": {
+    "salesOffice": {
+      "phone": "+91-20-12345678",
+      "email": "sales@oakbuilders.com"
+    },
+    "siteVisit": {
+      "person": "Mr. Rajesh Sharma",
+      "phone": "+91-98xxxxxx",
+      "email": "rajesh.sharma@oakbuilders.com"
+    }
+  },
+  "features": {
+    "vastuCompliant": true,
+    "smartHome": false,
+    "petFriendly": true,
+    "disabledFriendly": true,
+    "solarPowered": true,
+    "waterBody": true,
+    "constructionRating": 4.5,
+    "greenRating": "IGBC Gold",
+    "highlights": [
+      "Rooftop infinity pool",
+      "Dedicated co-working space",
+      "Rainwater harvesting"
+    ],
+    "remarks": "Located amid serene greenery with 360° hills view."
+  },
+  "createdAt": "2025-07-07T00:00:00Z",
+  "updatedAt": "2025-07-07T00:00:00Z"
+}
